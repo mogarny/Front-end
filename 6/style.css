@@ -1,0 +1,14 @@
+div {
+    font-size: 35px;
+    width: 60%;
+    margin: auto;
+    font-family: 'Roboto Mono';
+    font-weight: 800;
+    text-align: center;
+    line-height: 63px;
+    word-spacing: -11px;
+    color: white;
+    background-color: #4c25729c;
+    word-break: keep-all;
+    border-radius: 21px;
+}
