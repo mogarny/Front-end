@@ -1,0 +1,152 @@
+.container-orange {
+    background-color: orange;
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cube {
+    height: 270px;
+    width: 275px;
+}
+
+.c1 {
+    background-color: red;
+    float: left;
+}
+
+.c2 {
+    background-color: green;
+    float: left;
+}
+
+.c3 {
+    background-color: rgb(59, 59, 201);
+    float: left;
+}
+
+.c4 {
+    background-color: black;
+    float: left;
+}
+
+body {
+    margin: 0;
+    background-color: #ffccbc5b;
+}
+
+.Container-nav {
+    background-color: #FFCCBC;
+    width: 250px;
+    margin: 4px;
+    height: 150px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+}
+
+.part {
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #ffdacead;
+    margin: 9px;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #b31e1ec7;
+}
+
+.musician {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 106px;
+}
+
+.Container-flex {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.Container-musician {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flexible {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    margin: 0;
+}
+
+.mus-flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #FFD54F;
+    padding: 10px;
+    color: #FF7043;
+}
+
+#block1 {
+    visibility: visible;
+}
+
+#block2 {
+    visibility: hidden;
+}
+
+#block3 {
+    visibility: visible;
+    display: block;
+    text-align: center;
+}
+
+#block4 {
+    display: none;
+}
+
+.over {
+    width: 300px;
+    margin-right: 150px;
+    height: 300px;
+}
+
+.container-over {
+    display: flex;
+
+}
+
+.over1 {
+    background-color: #9ed3d3;
+    overflow: hidden;
+}
+
+.over2 {
+    background-color: #d18973;
+    overflow: overlay;
+}
+
+.over3 {
+    background-color: rgb(159, 86, 190);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
