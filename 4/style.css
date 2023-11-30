@@ -1,0 +1,101 @@
+/* 1 type of selector  */
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: palevioletred;
+}
+
+.rectangle:hover {
+    background-color: blueviolet;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 3s;
+}
+
+/* 2 type of selector */
+.cube:hover {
+    margin-top: 200px;
+}
+
+/* 3 type of selector */
+#transform-cube {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+
+#transform-cube:hover {
+    transform: translate(100px, 50px);
+
+}
+
+/* 4 type of selector */
+[class="change-color-size"] {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    animation: change-color-size 1s infinite;
+}
+
+@keyframes change-color-size {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+}
+
+/* 5 type of selector */
+div~a {
+    margin: 50px 0;
+    display: block;
+}
+
+/* 6 type of selector */
+a[href="./task4.html"] {
+    margin: 0;
+}
+
+/* 7 type of selector */
+h2+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(253, 143, 0);
+    transition: 4s;
+}
+
+h2+div:hover {
+    background-color: darkseagreen;
+}
+
+/* 8 type of selector */
+[title] {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(243, 243, 8);
+    animation: rotate 4s;
+}
+
+@keyframes rotate {
+     100% {
+        transform: rotate(-360deg);
+    }
+}
+
