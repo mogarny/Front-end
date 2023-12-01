@@ -1,0 +1,231 @@
+.cap {
+    width: 1300px;
+    background-color: #d971d7d1;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-cap {
+    background-color: #fff;
+    width: 677px;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-cap {
+    background-color: black;
+    width: 491px;
+    height: 76px;
+
+}
+
+.span-cap {
+    margin-bottom: 57px;
+}
+
+.container-menu {
+    height: 206px;
+    width: 1300px;
+    display: flex;
+    background-color: #808080c2;
+    flex-direction: column;
+}
+
+.menu {
+    text-align: center;
+}
+
+.container-menu-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-menu1 {
+    background-color: red;
+    width: 325px;
+    height: 171px;
+}
+
+.div-menu2 {
+    background-color: orange;
+    width: 325px;
+    height: 171px;
+}
+
+.div-menu3 {
+    background-color: aqua;
+    width: 325px;
+    height: 171px;
+}
+
+.div-menu4 {
+    background-color: yellow;
+    width: 325px;
+    height: 171px;
+}
+
+.left-block {
+    align-items: center;
+    background-color: green;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+
+.centr-block {
+    width: 33%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-block {
+    background-color: blue;
+    width: 33%;
+    text-align: center;
+}
+
+.left {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    height: 317px;
+    width: 243px;
+    align-items: center;
+}
+
+.ab {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.a-left {
+    background-color: pink;
+    width: 50%;
+}
+
+.b-left {
+    background-color: yellow;
+    width: 50%;
+    height: 270px;
+}
+
+.left-centr-right {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+
+.left-block-span {
+    margin-bottom: 65px;
+}
+
+.left-span {
+    margin-bottom: 29px;
+}
+
+.centr-span {
+    margin-bottom: 67px;
+}
+
+.centr-red {
+    background-color: red;
+    width: 33%;
+    height: 315px;
+}
+
+.a-centr {
+    background-color: yellow;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.centr-orange {
+    background-color: orange;
+    width: 34%;
+}
+
+.A-B {
+    display: flex;
+    align-items: flex-end;
+}
+
+.A-c {
+    width: 50%;
+    background-color: orange;
+    height: 270px;}
+
+.B-c {
+    width: 50%;
+    background-color: red;
+    height: 100px;
+}
+
+.a-centr-span {
+    margin-bottom: 27px;
+}
+
+.aqua-centr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.right-span {
+
+}
+
+.right-aqua {
+    background-color: aqua;
+    height: 134px;
+    flex: 1 1 0;
+}
+
+.right-yellow {
+    background-color: yellow;
+    height: 198px;
+    flex: 1 1 0;
+    margin-bottom: 33px;
+}
+
+.right-orange {
+    background-color: orange;
+    height: 198px;
+    flex: 1 1 0;
+    margin-bottom: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aqua-yellow-orange {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95.5%;
+    align-items: end;
+}
+
+.text-block {
+    padding: 9px 3px;
+    background-color: black;
+    color: aqua;
+    width: 88px;
+}
+
+.position1 {
+    margin-left: 49px;
+}
+
+.position2 {
+
+}
