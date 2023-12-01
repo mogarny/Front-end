@@ -1,0 +1,28 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #b5cdcd;
+    padding: 10px 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.iframe {
+    width: 1000px;
+    height: 505px;
+    display: block;
+    margin: 50px auto;
+}

@@ -1,0 +1,75 @@
+.registration-form {
+    border: 3px solid #c39ca3c9;
+    height: 200px;
+    width: 300px;
+    border-radius: 4px;
+    padding: 100px 100px;
+    margin: 20px auto 50px;
+    position: relative;
+}
+
+.span {
+    background-color: #e9e5e3;
+    font-size: 26px;
+    color: #c39ca3c9;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: math;
+    position: absolute;
+    top: -21px;
+    left: 166px;
+    width: 166px;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #e9e5e3;
+    margin: 0;
+}
+
+::placeholder {
+    color: #c39ca3c9;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #c39ca3c9;
+    background: none;
+    margin-bottom: 15px;
+    color: #c39ca3c9;
+    outline: none;
+
+}
+
+label {
+    color: #c39ca3c9;
+}
+
+textarea {
+    background-color: #dbdbdb;
+}
+
+input[type="submit"] {
+    background-color: #c39ca3;
+    border-radius: 3px;
+    color: #fff;
+    padding: 7px 44px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: -21px;
+    left: 166px;
+    cursor: pointer;
+}
+
+hr {
+    width: 723px;
+    border-color: #c39ca3;
+}
+
+a {
+    color: #c39ca3;
+    text-align: center;
+    display: block;
+}
+
+
