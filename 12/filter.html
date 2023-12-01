@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    
+    <form id="filterForm">
+        <label for="productType">Product Type:</label>
+        <select id="productType" name="productType">
+            <option value="phone">Phone</option>
+            <option value="laptop">Laptop</option>
+            <option value="vacuumCleaner">Vacuum Cleaner</option>
+            <option value="charger">Charger</option>
+        </select>
+    
+        <label>Power:</label>
+        <label><input type="checkbox" name="power" value="15w"> 15W</label>
+        <label><input type="checkbox" name="power" value="25w"> 25W</label>
+        <label><input type="checkbox" name="power" value="65w"> 65W</label>
+        <label><input type="checkbox" name="power" value="100w"> 100W</label>
+        <label><input type="checkbox" name="power" value="200w"> 200W</label>
+    
+        <label>Brand:</label>
+        <label><input type="checkbox" name="brand" value="Samsung"> Samsung</label>
+        <label><input type="checkbox" name="brand" value="LG"> LG</label>
+        <label><input type="checkbox" name="brand" value="Asus"> Asus</label>
+        <label><input type="checkbox" name="brand" value="Lenovo"> Lenovo</label>
+    
+        <label for="sorting">Sorting:</label>
+        <select id="sorting" name="sorting">
+            <option value="cheap">From Cheap</option>
+            <option value="expensive">From Expensive</option>
+            <option value="rating">By Rating</option>
+        </select>
+    
+        <label for="modelName">Model Name:</label>
+        <input type="text" id="modelName" name="modelName" placeholder="Enter model name">
+    
+        <input type="submit" value="Submit">
+    </form>
+    <iframe class="iframe" src="./html.html" frameborder="0"></iframe>
+
+</body>
+</html>
